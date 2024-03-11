@@ -15,3 +15,14 @@ static float Average(int[] input)
     }
     return sum/i;
 }
+
+static float Max(int[] input)
+{
+    int max = input[0];
+    foreach (var item in input)
+    {
+        if (item > max)
+            max = item;
+    }
+    return max;
+}
