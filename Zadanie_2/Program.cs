@@ -8,7 +8,7 @@ static float Average(int[] input)
 {
     int sum = 0;
     int i = 0;
-    foreach (var item in input)
+    foreach (int item in input)
     {
         sum += item;
         i++;
