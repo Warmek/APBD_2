@@ -7,13 +7,13 @@ Console.WriteLine("Hello, World!");
 static float Average(int[] input)
 {
     int sum = 0;
-    int i = 0;
+    int size = 0;
     foreach (var item in input)
     {
         sum += item;
-        i++;
+        size++;
     }
-    return sum/i;
+    return sum/size;
 }
 
 static float Max(int[] input)
